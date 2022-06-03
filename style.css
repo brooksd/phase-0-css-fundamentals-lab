@@ -3,3 +3,37 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Header and Nav Section */
+
+header {
+  text-align: center;
+}
+
+header nav a {
+  background-color: grey;
+  padding: 5px;
+}
+
+/* Image Section */
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property figure figcaption {
+  font-size: 15px;
+}
+
+#featured-property p {
+  width: 800px;
+  margin-left: 400px;
+}
+
+/* Footer Section */
+
+#details {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+}
